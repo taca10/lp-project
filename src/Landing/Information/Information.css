@@ -1,0 +1,33 @@
+.information_page {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.max_width800 {
+  max-width: 800px;
+}
+
+.inforamtion_contents {
+  margin: 0 auto;
+}
+
+.information_text {
+  font-size: 28px;
+  text-align: left;
+}
+
+.image_box {
+  width: 400px;
+}
+
+.flex_contents {
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .image_box {
+    width: 100%;
+    padding: 0px 20px;
+  }
+}
+

@@ -1,0 +1,45 @@
+.app_landing_characteristic {
+  background: #EEEEEE;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.characteristic_contents {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.characteristic_title {
+  font-size: 28px;
+}
+
+.characteristic_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contensts {
+  width: 50%;
+  text-align: center;
+  padding-top: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.contensts_text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: left;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 500px) {
+  .characteristic_box.sp {
+    display: block;
+  }
+
+  .contents.sp {
+    width: 100%;
+  }
+}
